@@ -22,9 +22,7 @@ the string [x] IS a palindrome
 
 B - handle upper and lower case characters as the same; so RAdar would be considered a palindrome (think about String methods discussed in chapter 3; here's an excellent resource - https://www.w3schools.com/java/java_ref_string.asp)
 
-A - handle dates in the format mm/dd/yyyy (there are methods in the string class to help you with this)
-
-extra credit - given 2 dates output all the dates in that range which are palindromes
+A - ignore spaces so that a string such as: "a nut for a jar of tuna" is seen as a palindrome; this can be done using some String methods
 
 Here's what's in this repository
 
