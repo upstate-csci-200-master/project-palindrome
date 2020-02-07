@@ -14,8 +14,8 @@ extra credit - given 2 dates output all the dates in that range which are palind
 
 Here's what's in this repository
 ```
-ReverseString.java - java program that demonstrates how to use the StringBuilder class to reverse a string
-Program2.java - this is your starting code file; it contains everything you need and is where you will place your code
+> ReverseString.java - java program that demonstrates how to use the StringBuilder class to reverse a string
+> Program2.java - this is your starting code file; it contains everything you need and is where you will place your code
 NOTE: there is only ONE source code file for this assignment
 testC.txt - test file for C version
 testC.out - expected output for testC.txt
