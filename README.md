@@ -31,3 +31,5 @@ Here's what's in this repository
 > testA.txt - test file for A version
 
 > testA.out - expected output for A version
+
+This program is due by end of day Wednesday, Feb 19. Submit to YOUR github repository for this assignment AND submit the assignment jotform - https://form.jotform.com/200302477347046
