@@ -1,4 +1,7 @@
 # program-2
+code {
+  white-space : pre-wrap !important;
+}
 write a Java program to determine if a string is a palindrome using StringBuilder's reverse function and an "if" statement to compare; we will discuss this in class; I will also provide starting code to help you with the if statement
 
 C - input a string and output: radar is a palindrome or hello is not a palindrome
