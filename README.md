@@ -1,10 +1,24 @@
 # program-2
-code {
-  white-space : pre-wrap !important;
-}
-write a Java program to determine if a string is a palindrome using StringBuilder's reverse function and an "if" statement to compare; we will discuss this in class; I will also provide starting code to help you with the if statement
+Write a Java program to determine if a string is a palindrome using StringBuilder's reverse function and an "if" statement to compare. We will discuss this in class. I am providing starting code to help you with the if statement. The program will call your isPalindrome method each time it reads a word until it encounters the word QUIT.
 
-C - input a string and output: radar is a palindrome or hello is not a palindrome
+C - input a string and output if it is an palindrome or not
+example input
+```
+radar
+hello
+12321
+12345
+x
+QUIT
+```
+example output
+```
+the string [radar] IS a palindrome
+the string [hello] IS NOT a palindrome
+the string [12321] IS a palindrome
+the string [12345] IS NOT a palindrome
+the string [x] IS a palindrome
+```
 
 B - handle upper and lower case characters as the same; so RAdar would be considered a palindrome (think about String methods discussed in chapter 3; here's an excellent resource - https://www.w3schools.com/java/java_ref_string.asp)
 
