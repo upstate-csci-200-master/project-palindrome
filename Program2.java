@@ -9,24 +9,7 @@ public class Program2 {
   // post-conditions: return true if the string is a palindrome otherwise return false
   //
   public static Boolean isPalindrome(String s){
-    s = s.toUpperCase();
-    s = s.trim();
-    s = s.replaceAll("\\s", "");
-//    s = s.replaceAll(",", "");
-//    s = s.replaceAll(".", "");
-//    s = s.replaceAll("-", "");
-//    s = s.replaceAll("!", "");
-
-    StringBuilder sb = new StringBuilder();
-
-    // append a string into StringBuilder sb
-    sb.append(s);
-
-    // reverse StringBuilder reversed
-    String reversed = sb.reverse().toString();
-
-    // determine if input is Palindrome
-    return s.equals(reversed);
+      // put your code here
   }
 
   public static void main(String[] args) {
