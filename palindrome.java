@@ -1,8 +1,8 @@
-// CSCI 200 Program 2
+// use the same header comments you've used in chapter 1 and chapter 2 program assignments
 
 import java.util.*;
 
-public class Program2 {
+public class Palindrome {
   //
   // method: isPalindrome
   // pre-conditions: a string is passed in
@@ -13,11 +13,11 @@ public class Program2 {
   }
 
   public static void main(String[] args) {
-      Scanner scan = new Scanner(System.in);
-      String word = scan.nextLine();
-      //
+      // define a scanner object to read from System.in
+
+      // define a string called word and read the first line from the scanner object
+
       // keep reading words until the word QUIT is read in
-      //
       while (!word.equals("QUIT")) {
         //
         // call the isPalindrome method passing it the word
@@ -27,7 +27,8 @@ public class Program2 {
             System.out.println("the string [" + word + "] IS a palindrome.");
         else
             System.out.println("the string [" + word + "] IS NOT a palindrome.");
-        word = scan.nextLine();
+        
+        // read the next string
       }
   }
 }
