@@ -1,5 +1,5 @@
 # Project - Palindrome
-Write a Java program to determine if a string is a palindrome using StringBuilder's reverse function and an "if" statement to compare. We will discuss this in class. I am providing starting code to help you with the if statement. The program will call your isPalindrome method each time it reads a word until it encounters the word QUIT.
+Write a Java program to determine if a string is a palindrome using StringBuilder's reverse function and an "if" statement to compare. We will discuss this in a video. I am providing starting code to help you with the if statement. The program will call your isPalindrome method each time it reads a word until it encounters the word QUIT.
 
 C - input a string and output if it is an palindrome or not
 example input
@@ -22,7 +22,7 @@ the string [x] IS a palindrome
 
 B - handle upper and lower case characters as the same; so RAdar would be considered a palindrome (think about String methods discussed in chapter 3; here's an excellent resource - https://www.w3schools.com/java/java_ref_string.asp)
 
-A - ignore spaces so that a string such as: "a nut for a jar of tuna" is seen as a palindrome; this can be done using some String methods
+A - ignore spaces and punctuation so that a string such as: "A nut for a jar of tuna." is seen as a palindrome; this can be done using some String methods
 
 Here's what's in this repository
 
@@ -44,7 +44,7 @@ Here's what's in this repository
 
 > testA.out - expected output for A version
 
-Submit to YOUR CodePost account AND then submit the assignment jotform - https://form.jotform.com/200302477347046
+Submit to YOUR CodePost account AND then submit comments to the assignment jotform - https://form.jotform.com/200302477347046
 
-NOTE: if you fail to submit to jotform, you will lose points
+NOTE: if you fail to submit comments to jotform, you will lose points
 
