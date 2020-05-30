@@ -26,7 +26,8 @@ public class Palindrome {
         if (isPalindrome(word))
             System.out.println("the string [" + word + "] IS a palindrome.");
         else
-            System.out.println("the string [" + word + "] IS NOT a palindrome.");
+        // provide false branch
+           
         
         // read the next string
       }
